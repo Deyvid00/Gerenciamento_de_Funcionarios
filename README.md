@@ -1,6 +1,6 @@
 # Gerenciamento_de_Funcionarios
 
-Este projeto é uma aplicação web desenvolvida como parte da disciplina de Web 2 do curso de Informática para Internet do IFPE Campus Jaboatão dos Guararapes. Ele implementa um sistema de gerenciamento de funcionários, permitindo adicionar, editar e excluir registros de funcionários.
+Este projeto é uma aplicação web desenvolvida por Deyvid Henrique Santos de Lima como parte da disciplina de Web 2 do curso de Informática para Internet do IFPE Campus Jaboatão dos Guararapes. Ele implementa um sistema de gerenciamento de funcionários, permitindo adicionar, editar e excluir registros de funcionários.
 ## Pré-requisitos
 
 Antes de executar a aplicação, certifique-se de ter os seguintes requisitos instalados:
