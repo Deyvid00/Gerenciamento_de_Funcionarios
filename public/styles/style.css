@@ -1,0 +1,83 @@
+/* Define uma paleta de cores neutras */
+:root {
+  --cor-primaria: #333;
+  --cor-secundaria: #999;
+}
+
+/* Define estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: var(--cor-primaria);
+  margin: 0;
+  padding: 0;
+}
+
+/* Estiliza os cabeçalhos */
+h1, h2, h3 {
+  color: var(--cor-primaria);
+  margin-bottom: 10px;
+}
+
+/* Estiliza os botões */
+.button {
+  background-color: var(--cor-primaria);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--cor-secundaria);
+}
+
+/* Estiliza as tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid var(--cor-secundaria);
+}
+
+table th {
+  background-color: var(--cor-primaria);
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Estiliza os formulários */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--cor-secundaria);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Estiliza mensagens de erro */
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Estiliza mensagens de sucesso */
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+}
